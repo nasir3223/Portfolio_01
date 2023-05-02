@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="websites icon" type="png" href="/n1.jpeg">
+    <title>Nasir</title>
+</head>
+<body>
+
+    <div class="container">
+        <!-- encabezado y menú -->
+        <header>
+            <h1 class="gradient-text">NASIR</h1>
+            <nav id="nav">
+                <a href="#start" onclick="seleccionar()"> Start</a>
+                <a href="#aboutme" onclick="seleccionar()" >About  Me</a>
+                <a href="#resume" onclick="seleccionar()">Resume</a>
+                <a href="#porfolio" onclick="seleccionar()">Porfolio</a>
+                <a href="#contact" onclick="seleccionar()">Contact</a>
+            </nav>
+
+            <!-- Icono del menu responsive -->
+            <div id="icono-nav" class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+
+        <!-- sección start -->
+        <section id="start">
+            <div class="fila">
+                <div class="col">
+                    <p>Nasir Ahmad </p>
+                    <h1 class="gradient-text"> Web Developer</h1>
+                    
+                    <button > <a  class="con" href="#contact" onclick="seleccionar()">Contact</a></button>
+                </div>
+                <div class="col">
+                    <div class="contenedor-img">
+                        <img src="/img/n1.jpeg" alt="" style="height: 150px;">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- sección Sobre Mí -->
+        <section id="aboutme">
+            <div class="fila">
+                <div class="col info">
+                    <h3>About Me</h2>
+                    <h2>I am a Web Developer</h2>
+                    <p>Making responsive websites .</p>
+                    <p>3D Websites.</p>
+                    <p>All types of websites.</p>
+                </div>
+                <div class="col">
+                    <div class="contenedor-img">
+                        <img src="/img/sobremi.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- resume -->
+        <section id="resume">
+            <h3>Resume</h3>
+            <div class="fila">
+                <div class="col">
+                    <p class="experiencia">Experience</p>
+                    <h2>4 Year of Experience in  <span class="txtEspecial">Web Development</span></h2>
+                </div>
+                <div class="col">
+                    <div class="info">
+                        <div class="item">
+                            <span class="circulo"></span>
+                            <h4>Programming Lannguages </h4>
+                            <p>As a Fornt-End Developer</p>
+                            <p>HTML , CSS , JAVASCRIPT AND REACT.JS</p>
+                        </div>
+                        <div class="item">
+                            <span class="circulo"></span>
+                            <h4>As a Backend-Developer </h4>
+                            <p>JavaScript , Node.js and Paython</p>
+                        </div>
+                        <!-- <div class="item">
+                            <span class="circulo"></span>
+                            <h4>My Hobbies </h4>
+                            <p>Photography</p>
+                            
+                        </div> -->
+                        <div class="item">
+                            <span class="circulo"></span>
+                            <h4>Photography</h4>
+                            <p>from (2022)</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- sección porfolio -->
+        <section id="porfolio">
+            <h3>Porfolio</h3>
+            <div class="fila">
+                <div class="col">
+                    <div class="trabajo">
+                        <img src="img/t1.jpg" alt="">
+                        <p class="desc">Work 1</p>
+                    </div>
+                    <div class="trabajo">
+                        <img src="img/t2.jpg" alt="">
+                        <p class="desc">Work 2</p>
+                    </div>
+                    <div class="trabajo">
+                        <img src="img/t3.jpg" alt="">
+                        <p class="desc">Work 3</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="trabajo">
+                        <img src="img/t4.jpg" alt="">
+                        <p class="desc">Work 4</p>
+                    </div>
+                    <div class="trabajo">
+                        <img src="img/t5.jpg" alt="">
+                        <p class="desc">Work 5</p>
+                    </div>
+                    <div class="trabajo">
+                        <img src="img/t6.jpg" alt="">
+                        <p class="desc">Work 6</p>
+                    </div>
+
+                </div>
+                <div class="col">
+                    <div class="trabajo">
+                        <img src="img/t7.jpg" alt="">
+                        <p class="desc">Work 7</p>
+                    </div>
+                    <div class="trabajo">
+                        <img src="img/t8.jpg" alt="">
+                        <p class="desc">Work 8</p>
+                    </div>
+                    <div class="trabajo">
+                        <img src="img/t9.jpg" alt="">
+                        <p class="desc">Work 9</p>
+                    </div>
+                    <div class="trabajo">
+                        <img src="img/t10.jpg" alt="">
+                        <p class="desc">Work 10</p>
+                    </div>
+                    <div class="trabajo">
+                        <img src="img/t11.jpg" alt="">
+                        <p class="desc">Work 11</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- sección contact -->
+        <section id="contact">
+            <h3>Contact Me<h3>
+            <div class="redes">
+                <!-- <a href="#"><i class="fa-brands fa-square-facebook gradient-text"></i></i></a>
+                <a href="#"><i class="fa-brands fa-square-twitter gradient-text"></i></a> -->
+                <a href="https://www.instagram.com/invites/contact/?i=diafoury8ux6&utm_content=nvuesga"><i class="fa-brands fa-square-instagram gradient-text"></i></a>
+                <a href="https://www.linkedin.com/in/nasir-ahmad-93258825b"><i class="fa-brands fa-linkedin gradient-text"></i></a>
+
+            </div>
+            <form action="">
+                <div class="entrada">
+                    <label for="">Name</label>
+                    <input type="text" placeholder="e.g your name "  required>
+                </div>
+                <div class="entrada">
+                    <label   for="email">email</label>
+                    <input type="text" placeholder="emai@gmail.com" required>
+                </div>
+                <div class="entrada">
+                    <label for="">message</label>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                </div>
+                <button>Submit</button>
+            </form>
+        </section>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
